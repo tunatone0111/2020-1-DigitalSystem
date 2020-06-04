@@ -14,9 +14,6 @@ always @(posedge CLK or negedge RESET) begin
             R[i] <= 16'h0000;
         end
     end
-    else begin
-        
-    end
 end
 
 always @(AA or BA or DA) begin
@@ -50,6 +47,5 @@ always @(AA or BA or DA) begin
             3'b111: R[7] <= DD;
     end
 end
-
 
 endmodule
