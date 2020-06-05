@@ -8,3 +8,87 @@ z2
 !i10f 100
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
+vdatapath
+Z0 !s110 1591368283
+!i10b 1
+!s100 9oYld:4:1MS4Uoo^N^OS31
+IC;BB85B<iXBHoOa0WXGF90
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5
+w1591368073
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1591368283.000000
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v|
+!s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v|
+!s101 -O0
+!i113 1
+Z5 o-work vhw5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfuncunit
+R0
+!i10b 1
+!s100 4B48ab3`_I[o8SKC=;j;12
+IgkQ4^:GZbeI;ICDa5FF>D1
+R1
+R2
+w1591367892
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v|
+!s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v|
+!s101 -O0
+!i113 1
+R5
+vregfile
+!s110 1591368282
+!i10b 1
+!s100 S>HaOA[CGL15HDln9;U;G0
+ISfd:P=T7`k1M0g=hm_mDG2
+R1
+R2
+w1591365442
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1591368282.000000
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v|
+!s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v|
+!s101 -O0
+!i113 1
+R5
+vtestbenchhw5
+R0
+!i10b 1
+!s100 o=:Jch468^aeCiP14GMmG2
+ISz?LA0bAK>o?1CmTF=Km;1
+R1
+R2
+w1591368183
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v|
+!s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v|
+!s101 -O0
+!i113 1
+R5

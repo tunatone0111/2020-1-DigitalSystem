@@ -2,10 +2,9 @@ module regfile(AA, BA, DA, DD, RW, AD, BD, CLK, RESET);
 
 integer i;
 input [2:0] AA, BA, DA; 
-input reg [15:0] DD;
-input RW, CLK;
+input [15:0] DD;
+input RW, CLK, RESET;
 output reg [15:0] AD, BD;
-
 reg [15:0] R[0:7];
 
 always @(posedge CLK or negedge RESET) begin
@@ -27,6 +26,8 @@ always @(AA or BA or DA) begin
             3'b101: AD <= R[5];
             3'b110: AD <= R[6];
             3'b111: AD <= R[7];
+        endcase
+
         case (BA)
             3'b000: BD <= R[0];
             3'b001: BD <= R[1];
@@ -36,6 +37,8 @@ always @(AA or BA or DA) begin
             3'b101: BD <= R[5];
             3'b110: BD <= R[6];
             3'b111: BD <= R[7];
+        endcase
+
         case (DA)
             3'b000: R[0] <= DD;
             3'b001: R[1] <= DD;
@@ -45,6 +48,7 @@ always @(AA or BA or DA) begin
             3'b101: R[5] <= DD;
             3'b110: R[6] <= DD;
             3'b111: R[7] <= DD;
+        endcase
     end
 end
 
