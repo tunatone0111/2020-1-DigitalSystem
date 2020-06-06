@@ -33,7 +33,7 @@ always @(posedge CLK) begin
                 {C, D} <= A-1;
             end
             4'b0111:begin
-                {C, D} <= A
+                {C, D} <= A;
             end
             4'b1000:begin
                 D <= A & B;
@@ -65,7 +65,7 @@ always @(posedge CLK) begin
         else Z = 0;
 
         N <= D[15];
-        V <= D[15] & C;
+        V <= D[15] ^ C;
     end
 end
 
