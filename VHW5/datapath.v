@@ -14,7 +14,8 @@ assign FS = CTRWRD[5:2];
 assign MD = CTRWRD[1];
 assign RW = CTRWRD[0];
 
-reg [15:0] busA, busB1, busD1, busB2, busD2;
+reg [15:0] busB2, busD2;
+wire [15:0] busA, busB1, busD1;
 
 output V, C, N, Z;
 output [15:0] Adrout, Dout;

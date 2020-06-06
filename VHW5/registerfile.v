@@ -39,16 +39,18 @@ always @(AA or BA or DA) begin
             3'b111: BD <= R[7];
         endcase
 
-        case (DA)
-            3'b000: R[0] <= DD;
-            3'b001: R[1] <= DD;
-            3'b010: R[2] <= DD;
-            3'b011: R[3] <= DD;
-            3'b100: R[4] <= DD;
-            3'b101: R[5] <= DD;
-            3'b110: R[6] <= DD;
-            3'b111: R[7] <= DD;
-        endcase
+        if(RW == 1) begin
+            case (DA)
+                3'b000: R[0] <= DD;
+                3'b001: R[1] <= DD;
+                3'b010: R[2] <= DD;
+                3'b011: R[3] <= DD;
+                3'b100: R[4] <= DD;
+                3'b101: R[5] <= DD;
+                3'b110: R[6] <= DD;
+                3'b111: R[7] <= DD;
+            endcase
+        end
     end
 end
 

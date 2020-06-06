@@ -26,9 +26,13 @@ end
 
 initial begin
     RESET = 1;
-    #2 RESET =  0;
-    #1;
-    #2 CTRWRD = 16'b0000000000000000;
+    Din = 16'h92a1;
+    #3 RESET =  0;
+    #2 CTRWRD = 16'b0000000000000011;
+    #2
+    #2 CTRWRD = 16'b0100000000000011;
+    #2 CTRWRD = 16'b1000000000000011;
+    #2 CTRWRD = 16'b0000000000000011;
 end
 
 initial #200 $finish;
