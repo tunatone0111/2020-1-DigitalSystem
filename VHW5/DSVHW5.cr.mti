@@ -15,7 +15,7 @@ Top level modules:
 } {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v {2 {vlog -work vhw5 -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module funcunit
-** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v(64): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 
 ** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v(72): (vlog-2283) Extra semicolon in $unit (global) scope.
 

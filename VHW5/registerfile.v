@@ -1,22 +1,23 @@
 module regfile(AA, BA, DA, DD, RW, AD, BD, CLK, RESET);
 
-integer i;
 input [2:0] AA, BA, DA; 
 input [15:0] DD;
 input RW, CLK, RESET;
 output reg [15:0] AD, BD;
 reg [15:0] R[0:7];
 
-always @(posedge CLK or negedge RESET) begin
+always @(posedge CLK or AA or BA) begin
     if(RESET == 1) begin
-        for(i = 0; i < 8; i = i + 1) begin
-            R[i] <= 16'h0000;
-        end
+        R[0] <= 16'h0000;
+        R[1] <= 16'h0000;
+        R[2] <= 16'h0000;
+        R[3] <= 16'h0000;
+        R[4] <= 16'h0000;
+        R[5] <= 16'h0000;
+        R[6] <= 16'h0000;
+        R[7] <= 16'h0000;
     end
-end
-
-always @(posedge CLK) begin
-    if(RW == 1) begin
+    else begin
         case (AA)
             3'b000: AD <= R[0];
             3'b001: AD <= R[1];
@@ -38,20 +39,20 @@ always @(posedge CLK) begin
             3'b110: BD <= R[6];
             3'b111: BD <= R[7];
         endcase
-
-        if(RW == 1) begin
-            case (DA)
-                3'b000: R[0] <= DD;
-                3'b001: R[1] <= DD;
-                3'b010: R[2] <= DD;
-                3'b011: R[3] <= DD;
-                3'b100: R[4] <= DD;
-                3'b101: R[5] <= DD;
-                3'b110: R[6] <= DD;
-                3'b111: R[7] <= DD;
-            endcase
-        end
     end
+end
+
+always @(DD) begin
+    case (DA)
+        3'b000: R[0] <= RW ? DD : R[0];
+        3'b001: R[1] <= RW ? DD : R[1];
+        3'b010: R[2] <= RW ? DD : R[2];
+        3'b011: R[3] <= RW ? DD : R[3];
+        3'b100: R[4] <= RW ? DD : R[4];
+        3'b101: R[5] <= RW ? DD : R[5];
+        3'b110: R[6] <= RW ? DD : R[6];
+        3'b111: R[7] <= RW ? DD : R[7];
+    endcase
 end
 
 endmodule

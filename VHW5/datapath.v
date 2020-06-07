@@ -14,19 +14,24 @@ assign FS = CTRWRD[5:2];
 assign MD = CTRWRD[1];
 assign RW = CTRWRD[0];
 
+wire [15:0] wireA, wireB, wireD;
 reg [15:0] busA, busB, busD;
 
 output V, C, N, Z;
 output [15:0] Adrout, Dout;
+assign Adrout = busA;
+assign Dout = busB;
 
-regfile RF1(AA, BA, DA, busD, RW, busA, busB, CLK, RESET);
-funcunit FU1(FS, busA, busB, busD, V, C, N, Z, CLK, RESET);
+regfile RF1(AA, BA, DA, busD, RW, wireA, wireB, CLK, RESET);
+funcunit FU1(FS, busA, busB, wireD, V, C, N, Z, CLK, RESET);
 
-always @(posedge CLK) begin
-    busD <= MD ? Din : busD;
-    busB <= MB ? Cin : busB;
-    Adrout <= busA;
-    Dout <= busB;
+always @(wireA or wireB or Cin) begin
+    busA <= wireA;
+    busB <= MB ? Cin : wireB;
+end
+
+always @(wireD or Din) begin
+    busD <= MD ? Din : wireD;
 end
 
 endmodule
