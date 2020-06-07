@@ -15,7 +15,7 @@ always @(posedge CLK or negedge RESET) begin
     end
 end
 
-always @(AA or BA or DA) begin
+always @(posedge CLK) begin
     if(RW == 1) begin
         case (AA)
             3'b000: AD <= R[0];
