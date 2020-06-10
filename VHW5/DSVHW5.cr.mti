@@ -1,27 +1,11 @@
-C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v {1 {vlog -work vhw5 -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v
+C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v {2 {vlog -work vhw5 -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module regfile
+** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v(61): (vlog-2256) Event expressions should result in a singular type.
+
 
 Top level modules:
 	regfile
-
-} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v {1 {vlog -work vhw5 -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module testbenchhw5
-
-Top level modules:
-	testbenchhw5
-
-} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v {2 {vlog -work vhw5 -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module funcunit
-** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-
-** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v(72): (vlog-2283) Extra semicolon in $unit (global) scope.
-
-
-Top level modules:
-	funcunit
 
 } {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v {1 {vlog -work vhw5 -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

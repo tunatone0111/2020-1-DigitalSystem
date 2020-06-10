@@ -30,7 +30,7 @@ always @(wireA or wireB or Cin) begin
     busB <= MB ? Cin : wireB;
 end
 
-always @(wireD or Din) begin
+always @(wireD or Din or MD) begin
     busD <= MD ? Din : wireD;
 end
 
