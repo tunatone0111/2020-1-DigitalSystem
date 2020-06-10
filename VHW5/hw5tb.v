@@ -17,14 +17,6 @@ initial forever begin
     #1 CLK = ~CLK;
 end
 
-initial forever begin
-    #2
-    $display ("[Time %0t ps] %3b %3b %3b", $time, testbenchhw5.DP1.DA, testbenchhw5.DP1.AA, testbenchhw5.DP1.BA);
-    for(i = 0; i < 8; i = i+1) begin
-    $display ("[Time %0t ps] R%0d = %x, dec:%d, signed:%d", $time, i, testbenchhw5.DP1.RF1.R[i], testbenchhw5.DP1.RF1.R[i], $signed(testbenchhw5.DP1.RF1.R[i]));
-    end
-end
-
 initial begin
     RESET = 1;
     Cin = 16'h0002;

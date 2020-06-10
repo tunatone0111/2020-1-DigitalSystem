@@ -56,7 +56,6 @@ always @(A or B) begin
 end
 
 always @(posedge CLK or D or C1 or C) begin
-    $display ("[Time %0t ps] D: %16b  Cn-1: %1b,  Cn: %1b", $time, D, C1, C);
     if(RESET == 1) {V, C, N, Z, C1} <= 5'b00000;
     else begin
         if(D == 16'h0000) Z <= 1;
