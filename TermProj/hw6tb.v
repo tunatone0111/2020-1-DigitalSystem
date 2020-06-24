@@ -1,6 +1,6 @@
 `timescale 1ns / 1ns
 
-module testbenchhw5;
+module testbenchhw6;
 
 integer i;
 reg [15:0] CTRWRD, Cin, Din;
