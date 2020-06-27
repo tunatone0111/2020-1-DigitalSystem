@@ -1,0 +1,68 @@
+C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbenchhw6
+
+Top level modules:
+	testbenchhw6
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module computer
+
+Top level modules:
+	computer
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/branchcontrol.v {1 {vlog -work DStermproj -stats=none {C:\Users\user\Documents\workspace\2020-1-digitalsystem\TermProj\branchcontrol.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module branchcontrol
+
+Top level modules:
+	branchcontrol
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module processor
+
+Top level modules:
+	processor
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/instructiondecoder.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/instructiondecoder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module instructiondecoder
+
+Top level modules:
+	instructiondecoder
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/memory.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/registerfile.v {2 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/registerfile.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module regfile
+** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/registerfile.v(61): (vlog-2256) Event expressions should result in a singular type.
+
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/functionunit.v {2 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/functionunit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module funcunit
+** Warning: C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/functionunit.v(68): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	funcunit
+
+} {} {}}

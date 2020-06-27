@@ -1,4 +1,4 @@
-module computer(CLK, RESET)
+module computer(CLK, RESET);
 
 input CLK, RESET;
 wire MW;

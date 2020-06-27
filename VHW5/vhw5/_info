@@ -9,86 +9,86 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vdatapath
-Z0 !s110 1591795021
+!s110 1591798995
 !i10b 1
 !s100 =RColVE9kGiOQDnb]B_di2
 IB>do^;n:icJXKNFznLZMh0
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5
 w1591792995
 8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v
 FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v
 L0 1
-Z3 OP;L;10.4a;61
+Z2 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1591795021.000000
+!s108 1591798995.000000
 !s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v|
 !s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/datapath.v|
 !s101 -O0
 !i113 1
-Z5 o-work vhw5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z3 o-work vhw5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 vfuncunit
-R0
+Z4 !s110 1591798994
 !i10b 1
-!s100 @gC:SA:l7`Ph]OWa9HZ9E3
-I4?L;TEHDAohJmEEj5kDb[0
+!s100 <OLJn=oLjRDaKSFmMPMHU1
+IiEN`le;_`??AAXS5@=7]X1
+R0
 R1
-R2
-w1591794987
+Z5 w1591798958
 8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v
 FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
+Z6 !s108 1591798994.000000
 !s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v|
 !s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/functionunit.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vregfile
-R0
+R4
 !i10b 1
 !s100 XUAU]4Fc5R:NY=Kli3emb0
 IkaRmm@<zeoknBA[WMKgmS1
+R0
 R1
-R2
 w1591794765
 8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v
 FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-!s108 1591795020.000000
+R6
 !s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v|
 !s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/registerfile.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vtestbenchhw5
-R0
+R4
 !i10b 1
-!s100 d:_CoHUCohdDniLn`PzS>0
-IRCIR10cH<>Y:b<L>4^E5k2
+!s100 z_Z4NB0d<3k7YGe8Hn@=c2
+IZR?zdg9MUg7HcC<D]BK?J0
+R0
 R1
-R2
-w1591795013
+R5
 8C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v
 FC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v
 L0 3
-R3
+R2
 r1
 !s85 0
 31
-R4
+R6
 !s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v|
 !s90 -reportprogress|300|-work|vhw5|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5/hw5tb.v|
 !s101 -O0
 !i113 1
-R5
+R3

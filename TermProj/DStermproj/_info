@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Documents/workspace/2020-1-digitalsystem/VHW5
+vbranchcontrol
+Z0 !s110 1593266836
+!i10b 1
+!s100 9@Ukk0=_VlY?0gY4<E3ZI1
+IQKUcQ^VOg^8NQXb_EL7?60
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj
+w1593263848
+8C:\Users\user\Documents\workspace\2020-1-digitalsystem\TermProj\branchcontrol.v
+FC:\Users\user\Documents\workspace\2020-1-digitalsystem\TermProj\branchcontrol.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1593266835.000000
+!s107 C:\Users\user\Documents\workspace\2020-1-digitalsystem\TermProj\branchcontrol.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:\Users\user\Documents\workspace\2020-1-digitalsystem\TermProj\branchcontrol.v|
+!s101 -O0
+!i113 1
+Z5 o-work DStermproj -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vcomputer
+R0
+!i10b 1
+!s100 B`Z8l4SJh[C3i7e2K<@HE2
+I78_aAI0D1Bh^UjojG3>FD3
+R1
+R2
+w1593263535
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z6 !s108 1593266836.000000
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v|
+!s101 -O0
+!i113 1
+R5
+vdatapath
+R0
+!i10b 1
+!s100 =RColVE9kGiOQDnb]B_di2
+IFg1>JUNdX`Fg;D6NL_S=E2
+R1
+R2
+Z7 w1593263317
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v|
+!s101 -O0
+!i113 1
+R5
+vfuncunit
+Z8 !s110 1593266837
+!i10b 1
+!s100 <OLJn=oLjRDaKSFmMPMHU1
+IzkOK2WOO=Y1_8Y2gP7>8<1
+R1
+R2
+R7
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/functionunit.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/functionunit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/functionunit.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/functionunit.v|
+!s101 -O0
+!i113 1
+R5
+vinstructiondecoder
+R8
+!i10b 1
+!s100 WS;]iT9787X13;V25:zYW1
+IEBQk6H5oQ^9L@V3Td<?U;2
+R1
+R2
+w1593263953
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/instructiondecoder.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/instructiondecoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1593266837.000000
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/instructiondecoder.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/instructiondecoder.v|
+!s101 -O0
+!i113 1
+R5
+vmemory
+Z10 !s110 1593266838
+!i10b 1
+!s100 Um]:SRLL:z5nDM:c7B=dm1
+Ijie5O1Xo1KdGg4]YSDdh:0
+R1
+R2
+w1593264011
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/memory.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/memory.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/memory.v|
+!s101 -O0
+!i113 1
+R5
+vprocessor
+R10
+!i10b 1
+!s100 U<7`5Cgk7<GQaBPGKWa?j2
+IUU_I6j0J=nI]OZH2D`mH[0
+R1
+R2
+w1593264440
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1593266838.000000
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v|
+!s101 -O0
+!i113 1
+R5
+vregfile
+!s110 1593266835
+!i10b 1
+!s100 XUAU]4Fc5R:NY=Kli3emb0
+IJfVkL_5M2i8P>lHTEBJ1P0
+R1
+R2
+R7
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/registerfile.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/registerfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/registerfile.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/registerfile.v|
+!s101 -O0
+!i113 1
+R5
+vtestbenchhw6
+R8
+!i10b 1
+!s100 [Q3lYZfBE]elOH:S6fOQl0
+I4fbT0?DUBIghEafL2C<660
+R1
+R2
+w1593265266
+8C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v
+FC:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v|
+!s90 -reportprogress|300|-work|DStermproj|-stats=none|C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v|
+!s101 -O0
+!i113 1
+R5

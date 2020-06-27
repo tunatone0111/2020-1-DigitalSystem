@@ -15,8 +15,8 @@ end
 
 initial begin
     //My initialization
-    //LDI R3, 9
-    C1.P1.instmem[0] <= {7'b1001100, 3'd3, 3'd0, 3'd9};
+    //LDI R3, 3
+    C1.P1.instmem[0] <= {7'b1001100, 3'd3, 3'd0, 3'd3};
     //LDI R4, 6
     C1.P1.instmem[1] <= {7'b1001100, 3'd4, 3'd0, 3'd6};
     //ST R3, R4
