@@ -25,12 +25,12 @@ assign Dout = busB;
 regfile RF1(AA, BA, DA, busD, RW, wireA, wireB, CLK, RESET);
 funcunit FU1(FS, busA, busB, wireD, V, C, N, Z, CLK, RESET);
 
-always @(wireA or wireB or Cin) begin
+always @(*) begin
     busA <= wireA;
     busB <= MB ? Cin : wireB;
 end
 
-always @(wireD or Din or MD) begin
+always @(*) begin
     busD <= MD ? Din : wireD;
 end
 

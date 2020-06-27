@@ -1,16 +1,16 @@
-C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/hw6tb.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module testbenchhw6
-
-Top level modules:
-	testbenchhw6
-
-} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v
+C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/datapath.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module datapath
 
 Top level modules:
 	datapath
+
+} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/branchcontrol.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/branchcontrol.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module branchcontrol
+
+Top level modules:
+	branchcontrol
 
 } {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/computer.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -18,13 +18,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	computer
-
-} {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/branchcontrol.v {1 {vlog -work DStermproj -stats=none {C:\Users\user\Documents\workspace\2020-1-digitalsystem\TermProj\branchcontrol.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module branchcontrol
-
-Top level modules:
-	branchcontrol
 
 } {} {}} C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v {1 {vlog -work DStermproj -stats=none C:/Users/user/Documents/workspace/2020-1-digitalsystem/TermProj/processor.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

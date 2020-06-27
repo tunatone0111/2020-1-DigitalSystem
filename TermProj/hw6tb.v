@@ -29,6 +29,20 @@ initial begin
     C1.P1.instmem[4] <= {7'b1000010, 3'd2, 3'd2, 3'd1};
     //ADD R3, R2, R3
     C1.P1.instmem[5] <= {7'b0000010, 3'd3, 3'd2, 3'd3};
+
+    //NOP
+    C1.P1.instmem[6] <= {16'd0};
+    C1.P1.instmem[7] <= {16'd0};
+
+    //memory initialize
+    C1.M1.mem[0] <= {16'd0};
+    C1.M1.mem[1] <= {16'd0};
+    C1.M1.mem[2] <= {16'd0};
+    C1.M1.mem[3] <= {16'd0};
+    C1.M1.mem[4] <= {16'd0};
+    C1.M1.mem[5] <= {16'd0};
+    C1.M1.mem[6] <= {16'd0};
+    C1.M1.mem[7] <= {16'd0};
 end
 
 initial begin
@@ -36,6 +50,6 @@ initial begin
     #PERIOD RESET = 0;
 end
 
-initial #50 $finish;
+initial #16 $finish;
 
 endmodule

@@ -8,7 +8,7 @@ reg [15:0] R[0:7];
 reg [2:0] DAtemp;
 reg RWtemp;
 
-always @(posedge CLK) begin
+always @(posedge CLK or AA or BA) begin
     if(RESET == 1) begin
         R[0] <= 16'h0000;
         R[1] <= 16'h0000;
