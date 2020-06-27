@@ -2,14 +2,10 @@
 
 module testbenchhw6;
 
-integer i;
-reg [15:0] CTRWRD, Cin, Din;
-wire [15:0] Dout, Adrout;
 reg CLK, RESET;
-wire [0:3] status_bits;
 parameter PERIOD = 2;
 
-datapath DP1(CTRWRD, Cin, Din, Dout, Adrout, status_bits[0], status_bits[1], status_bits[2], status_bits[3], CLK, RESET);
+computer C1(CLK, RESET);
 
 initial CLK = 1'b1;
 
@@ -18,43 +14,26 @@ initial forever begin
 end
 
 initial begin
+    //My initialization
+    //LDI R3, 9
+    C1.P1.instmem[0] <= {7'b1001100, 3'd3, 3'd0, 3'd9};
+    //LDI R4, 6
+    C1.P1.instmem[1] <= {7'b1001100, 3'd4, 3'd0, 3'd6};
+    //ST R3, R4
+    C1.P1.instmem[2] <= {7'b0100000, 3'd0, 3'd3, 3'd4};
+
+    //Asked instruction
+    //LD R2, R3
+    C1.P1.instmem[3] <= {7'b0010000, 3'd2, 3'd3, 3'd0};
+    //ADI R2, R2, 1
+    C1.P1.instmem[4] <= {7'b1000010, 3'd2, 3'd2, 3'd1};
+    //ADD R3, R2, R3
+    C1.P1.instmem[5] <= {7'b0000010, 3'd3, 3'd2, 3'd3};
+end
+
+initial begin
     RESET = 1;
-    Cin = 16'h0002;
-    Din = 16'h0000;
-    CTRWRD = 16'b0000000000000011;
-    #PERIOD
-    RESET =  0;
-    #PERIOD Din = 16'h0001;
-    CTRWRD = 16'b0010000000000011;
-    #PERIOD Din = 16'h0002;
-    CTRWRD = 16'b0100000000000011;
-    #PERIOD Din = 16'h0003;
-    CTRWRD = 16'b0110000000000011;
-    #PERIOD Din = 16'h0004;
-    CTRWRD = 16'b1000000000000011;
-    #PERIOD Din = 16'h0005;
-    CTRWRD = 16'b1010000000000011;
-    #PERIOD Din = 16'h0006;
-    CTRWRD = 16'b1100000000000011;
-    #PERIOD Din = 16'h0007;
-    CTRWRD = 16'b1110000000000011;
-
-    #PERIOD
-    CTRWRD = 16'b0000000000000000;
-    Din = 16'h0012;
-
-    #PERIOD CTRWRD = 16'b0010100110010101;
-    #PERIOD CTRWRD = 16'b1000001100111001;
-    #PERIOD CTRWRD = 16'b1111110000000101;
-    #PERIOD CTRWRD = 16'b0010000001001001;
-    #PERIOD CTRWRD = 16'b0000000110000000;
-    #PERIOD CTRWRD = 16'b1000000000000011;
-    #PERIOD CTRWRD = 16'b1010000000101001;
-    #PERIOD Din = 16'hefff;
-    CTRWRD = 16'b0000000000000011;
-    #PERIOD Din = 16'heffe;
-    CTRWRD = 16'b0010000000000011;
-    #PERIOD CTRWRD = 16'b0100000010001001;
+    #PERIOD RESET = 0;
 end
 
 initial #50 $finish;
